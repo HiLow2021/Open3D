@@ -1,0 +1,16 @@
+﻿#version 450 core
+
+layout (location = 0) in vec4 position;
+layout (location = 1) in vec4 color;
+
+layout (location = 20) uniform mat4 model;
+layout (location = 21) uniform mat4 view;
+layout (location = 22) uniform mat4 projection;
+
+out vec4 frag_color;
+
+void main(void)
+{
+    gl_Position = projection * view * model * position;
+    frag_color = color;
+}

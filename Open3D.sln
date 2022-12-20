@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open3D.Core", "Open3D.Core\Open3D.Core.csproj", "{78EA6BDA-9159-4C1B-B4CB-08FF5E92CADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open3D.Demo", "Open3D.Demo\Open3D.Demo.csproj", "{D7EED5C3-D9D8-4429-B100-302F37019ED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open3D.Controls", "Open3D.Controls\Open3D.Controls.csproj", "{15E3EE1E-7989-4166-9B69-6A2076B049A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78EA6BDA-9159-4C1B-B4CB-08FF5E92CADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EA6BDA-9159-4C1B-B4CB-08FF5E92CADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EA6BDA-9159-4C1B-B4CB-08FF5E92CADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EA6BDA-9159-4C1B-B4CB-08FF5E92CADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7EED5C3-D9D8-4429-B100-302F37019ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7EED5C3-D9D8-4429-B100-302F37019ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7EED5C3-D9D8-4429-B100-302F37019ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7EED5C3-D9D8-4429-B100-302F37019ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E3EE1E-7989-4166-9B69-6A2076B049A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E3EE1E-7989-4166-9B69-6A2076B049A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E3EE1E-7989-4166-9B69-6A2076B049A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E3EE1E-7989-4166-9B69-6A2076B049A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B09CAD1C-666C-445A-9BB1-2DA5609345D1}
+	EndGlobalSection
+EndGlobal
