@@ -9,6 +9,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open3D.Demo", "Open3D.Demo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open3D.Controls", "Open3D.Controls\Open3D.Controls.csproj", "{15E3EE1E-7989-4166-9B69-6A2076B049A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{40F39F22-E11C-4507-AAD7-072E8F09E143}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Image", "Image", "{6A4298DA-996A-4CA5-8940-DB770DEECFE5}"
+	ProjectSection(SolutionItems) = preProject
+		Image\01.png = Image\01.png
+		Image\02.png = Image\02.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +41,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A4298DA-996A-4CA5-8940-DB770DEECFE5} = {40F39F22-E11C-4507-AAD7-072E8F09E143}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B09CAD1C-666C-445A-9BB1-2DA5609345D1}
